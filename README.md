@@ -3,4 +3,4 @@ This project uses Independent Component Analysis to achieve blind source separat
 ## Files
 - `icaTest.mat` is a small mixing data used for experimenting the idea of ICA. The code is in `small_dat.py`.
 - `sounds.mat` is the mixed sound file we aim to separate, which contains 5 rows and 44000 columns. The code is in `large_dat.py`. It turns out that choosing the appropriate learning rate is important for both datasets, otherwise the gradient ascent update will lead to overflow.
-- `ICA report.pdf` includes the results for both datasets, including the correlation matrix and the visualization of original, mixed, and unmixed signals.
+- `ICA report.pdf` contains the results for both datasets, including the correlation matrix and the visualization of original, mixed, and unmixed signals.
