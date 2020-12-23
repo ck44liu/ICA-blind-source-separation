@@ -1,1 +1,1 @@
-# ica-blind-source-separation
+# ICA-blind-source-separation
